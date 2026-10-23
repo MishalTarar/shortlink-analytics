@@ -14,9 +14,9 @@ flowchart LR
     Client[Client] -->|POST /api/links| API[Spring Boot API]
     API --> Service[ShortLinkService]
     Service --> DB[(PostgreSQL)]
-    Client -->|GET /{code}| API
+    Client -->|GET short code| API
     API -->|302 redirect| Destination[Original URL]
-    Client -->|GET /api/links/{code}/stats| API
+    Client -->|GET link statistics| API
 ```
 
 ## Requirements
