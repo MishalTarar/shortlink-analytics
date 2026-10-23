@@ -97,7 +97,3 @@ The create endpoint accepts absolute `http` and `https` URLs. Invalid URLs and u
 ## Current scope
 
 This is a learning project, not a public production service. It has no user accounts or access control, and anyone who knows a code can read its statistics. Click analytics store a total and the most recent click time; they do not store visitor IP addresses or a per-day event history.
-
-## Resume note
-
-Learn and personalize the implementation before listing it. Once you can explain the flow and the database update, you can describe the work in your own words, for example: built a Spring Boot REST API that creates short links, redirects requests, and records click totals in PostgreSQL.
